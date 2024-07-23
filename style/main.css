@@ -1,0 +1,162 @@
+/*** Algemene CSS ***/
+
+html {
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+header, body, footer {
+    padding: 5px 10px;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #2c3e50;
+    height: auto;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+nav li {
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    background-color: #2c3e50;
+}
+
+nav a {
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+nav li:hover,
+nav li:active {
+    background-color: olive;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+h2 {
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #2c3e50;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 12px;
+    color: white;
+}
+
+/*** Over mij ***/
+
+div {
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+div img {
+    width: 100%;
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+/*** Mijn cv ***/
+
+table {
+    text-align: left;
+    border: 1px solid olive;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table th, tr, td {
+    padding: 10px;
+    color: olive;
+}
+
+table th {
+    background-color: olive;
+    color: white;
+    font-style: italic;
+}
+
+table tr {
+    border-bottom: 1px dotted olive;
+}
+
+table td:nth-of-type(odd) {
+    border-right: 1px dotted olive;
+}
+
+table li:first-of-type {
+    margin-bottom: 15px;
+}
+
+table em {
+    font-size: 14px;
+    color: olive;
+}
+
+/*** Contact ***/
+
+form {
+    width: 450px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px 10px;
+    font-family: Verdana, sans-serif;
+}
+
+textarea {
+    height: 80px;
+}
+
+input[type="submit"] {
+    width: auto;
+    background-color: olive;
+    border: 1px solid olive;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active {
+    background-color: #2c3e50;
+    border: 1px solid #2c3e50;
+    cursor: pointer;
+}
